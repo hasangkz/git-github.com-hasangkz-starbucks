@@ -146,7 +146,7 @@ const StatisticPage = () => {
             <div className='gap-10 lg:flex-row flex-col items-center mt-20'>
               <div
                 className='lg:h-full h-72 flex text-center justify-center align-center p-10 '
-                style={{ background: '#F5F5F5', borderRadius: '5rem' }}
+                style={{ background: '#F5F5F5', borderRadius: '5rem', height: '18rem', overflow: 'auto', }}
               >
                 {/* @ts-ignore */}
                 <Pie {...pieConfig} />
